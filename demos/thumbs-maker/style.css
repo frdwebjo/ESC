@@ -47,8 +47,8 @@ a:hover::after {
 }
 
 #input input {
-    width: 99.2%;
-    height: 25px;
+    width: 60%;
+    height: 14px;
 }
 
 #input input,
