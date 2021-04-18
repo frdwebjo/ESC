@@ -53,10 +53,17 @@ a:hover::after {
 
 #input input,
 #input select {
-    margin: 1px 0;
-    height: 25px;
-    line-height: 25px;
+   margin: 3px 0;
+    background-color: #fff;
     font-family: inherit;
+    padding: 15px 5px;
+    font-size: 16px;
+    color: #5e5e5e;
+    border: 1px solide #5e5e5e;
+    box-shadow: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+}
 }
 
 #input {
