@@ -5,6 +5,7 @@
 	<title>  إنشاء بطاقات دعوة لإجتماعات الأندية - ESC </title>
 	<meta name="viewport" content="height=device-height, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="https://github.com/frdwebjo/ESC/blob/gh_pages/demos/thumbs-maker/style.css">
+	<link rel="shortcut icon" href="https://esc.training/wp-content/uploads/2020/02/favicon.png" /><link rel="apple-touch-icon" sizes="57x57" href="https://esc.training/wp-content/uploads/2020/02/Apple-iPhone.png" /><link rel="apple-touch-icon" sizes="114x114" href="https://esc.training/wp-content/uploads/2020/02/iPhone-Retina.png" /><link rel="apple-touch-icon" sizes="72x72" href="https://esc.training/wp-content/uploads/2020/02/Apple-iPad.png" /><link rel="apple-touch-icon" sizes="144x144" href="https://esc.training/wp-content/uploads/2020/02/iPad-Retina.png" />
 </head>
 <body>
 	<div id="input">
@@ -107,7 +108,7 @@
 				document.getElementById("categories").innerHTML = label1.value;
 				document.getElementById("content-title1").innerHTML = judul1.value;
 				document.getElementById("elc").innerHTML = btitle1.value;
-				document.getElementById("author-name").innerHTML = "@" + " " + author.value;
+				document.getElementById("author-name").innerHTML = "" + " " + author.value;
 			};
 			document.getElementById("bg-color").addEventListener("change", function() {
 				var a = "#d32f2f #c2185b #7b1fa2 #512da8 #303f9f #1976d2 #0288d1 #0097a7 #00796b #388e3c #689f38 #afb42b #fbc02d #ffa000 #f57c00 #e64a19 #5d4037 #616161 #455a64".split(" ")[bgcl.selectedIndex];
