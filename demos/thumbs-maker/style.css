@@ -4,6 +4,13 @@
     font-weight: 400;
     src:url(https://frdwebjo.github.io/ESC/ESC.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+} 
+@font-face {
+   font-family: 'ESCE';
+    font-style: normal;
+    font-weight: 400;
+    src:url(https://frdwebjo.github.io/ESC/ESCE.otf) format('otf');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
 }
 img { max-width: 100%; }
 html { font-size:100%; } 
@@ -81,7 +88,7 @@ body {
     direction: rtl;
     display: table;
     margin: 0 auto;
-    font-family: ESC;
+    font-family: ESC, ESCE;
 }
 
 footer.footer {
@@ -211,7 +218,7 @@ footer.footer a {
 
 .content-title {
     font-size: 35px;
-    font-family: ESC;
+    font-family: ESC, ESCE;
     font-weight: 700;
     padding: 0 150px;
     text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2);
@@ -242,7 +249,7 @@ footer.footer a {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: ESC;
+    font-family: ESC, ESCE;
     font-size: 20px;
     font-weight: 700;
     text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2);
