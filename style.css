@@ -7,8 +7,13 @@
     src: local('Tajawal'), local('Tajawal-Regular'), url(../../s/tajawal/v3/iura6ybj_ocad4k1nzsbc45i.woff) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
 }
-
-
+@font-face {
+    font-family: 'ESC';
+    font-style: normal;
+    font-weight: 400;
+    src:url(https://aitnews.com/wp-content/uploads/useanyfont/3821aitnews.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
 /* latin */
 
 @font-face {
@@ -85,7 +90,7 @@ body {
     direction: rtl;
     display: table;
     margin: 0 auto;
-    font-family: Tajawal, 'Google Sans', 'Segoe UI', sans-serif;
+    font-family: Tajawal, ESC, 'Google Sans', 'Segoe UI', sans-serif;
 }
 
 footer.footer {
@@ -214,7 +219,7 @@ footer.footer a {
 }
 
 .content-title {
-    font-size: 50px;
+    font-size: 35px;
     font-family: Tajawal, 'Google Sans', 'Segoe UI', sans-serif;
     font-weight: 700;
     padding: 0 150px;
