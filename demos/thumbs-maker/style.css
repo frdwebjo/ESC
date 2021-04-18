@@ -83,6 +83,7 @@ html {
 }
 
 body {
+   background-color: #eff6fc;
     direction: rtl;
     display: table;
     margin: 0 auto;
