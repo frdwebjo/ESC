@@ -1,49 +1,10 @@
 /* arabic */
-
-@font-face {
-    font-family: 'Tajawal';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Tajawal'), local('Tajawal-Regular'), url(../../s/tajawal/v3/iura6ybj_ocad4k1nzsbc45i.woff) format('woff2');
-    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
-}
 @font-face {
     font-family: 'ESC';
     font-style: normal;
     font-weight: 400;
-    src:url(https://aitnews.com/wp-content/uploads/useanyfont/3821aitnews.woff2) format('woff2');
+    src:url(../ESC.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
-}
-/* latin */
-
-@font-face {
-    font-family: 'Tajawal';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Tajawal'), local('Tajawal-Regular'), url(../../s/tajawal/v3/iura6ybj_ocad4k1nzgbcw.woff) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-
-/* arabic */
-
-@font-face {
-    font-family: 'Tajawal';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Tajawal Bold'), local('Tajawal-Bold'), url(../../s/tajawal/v3/iurf6ybj_ocad4k1l4qkhrrpiylj.woff) format('woff2');
-    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
-}
-
-
-/* latin */
-
-@font-face {
-    font-family: 'Tajawal';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Tajawal Bold'), local('Tajawal-Bold'), url(../../s/tajawal/v3/iurf6ybj_ocad4k1l4qkhrfpiq.woff) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 #category,
@@ -90,7 +51,7 @@ body {
     direction: rtl;
     display: table;
     margin: 0 auto;
-    font-family: Tajawal, ESC, 'Google Sans', 'Segoe UI', sans-serif;
+    font-family: ESC;
 }
 
 footer.footer {
@@ -220,7 +181,7 @@ footer.footer a {
 
 .content-title {
     font-size: 35px;
-    font-family: Tajawal, 'Google Sans', 'Segoe UI', sans-serif;
+    font-family: ESC;
     font-weight: 700;
     padding: 0 150px;
     text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2);
@@ -251,7 +212,7 @@ footer.footer a {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: Tajawal, 'Google Sans', 'Segoe UI', sans-serif;
+    font-family: ESC;
     font-size: 20px;
     font-weight: 700;
     text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2);
