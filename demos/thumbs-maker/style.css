@@ -16,7 +16,7 @@ p {
   line-height: normal;
    font-size: 15px;
 }
-a {
+.color {
   display: inline-block;
   position: relative;
   text-decoration: none;
@@ -24,7 +24,7 @@ a {
   z-index: 1;
 }
 
-a::after {
+color::after {
   content: '';
   position: absolute;
   left: 0;
@@ -36,7 +36,7 @@ a::after {
   transition: height .25s cubic-bezier(.6,0,.4,1);
 }
 
-a:hover::after {
+color:hover::after {
   height: .2em;
 }
 
@@ -336,17 +336,16 @@ nav ul {
 }
 
 nav li {
+   font-family: 'ESC';
     width: 20rem;
     height: 7rem;
     font-size: 20px;
     text-align: center;
     line-height: 7rem;
-    font-family: sans-serif;
-    text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
     transition: 0.3s;
-    margin: 3rem;
+    margin: 3rem 0;
 }
 
 nav li::before,
