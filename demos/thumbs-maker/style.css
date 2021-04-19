@@ -283,6 +283,9 @@ footer.footer a {
     -ms-flex-align: center;
     align-items: center;
 }
+li {
+  float: right;
+}
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
