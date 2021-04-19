@@ -321,15 +321,15 @@ nav ul {
 
 nav li {
    font-family: 'ESC';
-    width: 20rem;
-    height: 7rem;
-    font-size: 25px;
+    width: 5rem;
+    height: 5rem;
+    font-size: 16px;
     text-align: center;
-    line-height: 7rem;
+    line-height: 5rem;
     letter-spacing: 1px;
     position: relative;
     transition: 0.3s;
-    margin: 3rem 0;
+    margin: 5rem 0;
 }
 
 nav li::before,
@@ -344,12 +344,14 @@ nav li::after {
 }
 
 nav li::before {
+   border-radius: 100%;
     background-color: white;
     z-index: -1;
     box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 nav li::after {
+   border-radius: 100%;
     background-color: goldenrod;
     transform: translate(1.5rem, 1.5rem);
     z-index: -2;
