@@ -200,10 +200,10 @@ footer.footer a {
 }
 
 .content-title {
-    font-size: 50px;
+    font-size: 45px;
     font-family: ESC, ESCE;
     font-weight: 700;
-    padding: 0 150px;
+    padding: 0 100px;
     text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2);
     max-height: 240px;
     overflow: hidden;
