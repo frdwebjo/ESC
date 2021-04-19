@@ -266,7 +266,6 @@ footer.footer a {
 .blocks {
     width: 10px;
     height: 10px;
-    display: inline-block;
     background: #fff;
     margin-left: 15px;
     border-radius: 100%;
