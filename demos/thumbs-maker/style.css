@@ -264,11 +264,12 @@ footer.footer a {
 }
 
 .blocks {
-    width: 10px;
+   width: 45px;
     height: 10px;
+    display: inline-block;
     background: #fff;
     margin-left: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .separate {
