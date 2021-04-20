@@ -75,8 +75,6 @@ body {
 }
 
 footer.footer {
-    margin: 50px auto;
-    text-align: center;
     user-select: none;
 }
 
@@ -402,11 +400,11 @@ img, legend, video {
     font-size: .9375rem;
 }
 .footer {
-   position: fixed;
-   right: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #f1f1f1;
-   color: white;
-   text-align: center;
+   height: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5e5e5e;
+    color: white;
+    text-align: center;
 }
