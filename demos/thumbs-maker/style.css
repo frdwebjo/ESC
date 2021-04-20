@@ -404,13 +404,15 @@ footer {
     font-size: .9375rem;
 }
 .fa {
-width: 50px;	
 padding: 20px;
- margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  margin: 5px 2px;
+  border-radius: 50%;
 text-decoration:none;
 border-bottom:none;
 box-shadow: none;
-font-size: 30px;
 }
 .fa:hover {
 color: goldenrod;
@@ -422,21 +424,18 @@ color: goldenrod;
   color: white;
 }
 
-.fa-twitter {
-  background: #55ACEE;
+.fa-youtube {
+  background: #bb0000;
   color: white;
 }
 .fa-instagram {
   background: #125688;
   color: white;
 }
-footer#footer {
+footer {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 999;
-}
-.main-content {
-    padding-bottom: 5vw;
 }
