@@ -329,7 +329,7 @@ nav li::before {
 
 nav li::after {
    border-radius: 100%;
-    background-color: #5e5e5e;
+    background-color: goldenrod;
     transform: translate(1.5rem, 1.5rem);
     z-index: -2;
 }
