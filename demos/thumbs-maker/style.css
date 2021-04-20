@@ -404,9 +404,10 @@ footer {
     font-size: .9375rem;
 }
 .fa {
-  text-decoration:none;
+padding: 20px;
+ margin: 5px 2px;
+text-decoration:none;
 border-bottom:none;
 box-shadow: none;
 font-size: 40px;
-margin: 10px;
 }
