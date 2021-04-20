@@ -411,3 +411,21 @@ border-bottom:none;
 box-shadow: none;
 font-size: 40px;
 }
+.fa:hover {
+color: goldenrod;
+     background-color: #5e5e5e;
+}
+
+.fa-facebook {
+  background: #1778f2 ;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
