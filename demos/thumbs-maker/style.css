@@ -404,12 +404,13 @@ footer {
     font-size: .9375rem;
 }
 .fa {
+width: 50px;	
 padding: 20px;
  margin: 5px 2px;
 text-decoration:none;
 border-bottom:none;
 box-shadow: none;
-font-size: 40px;
+font-size: 30px;
 }
 .fa:hover {
 color: goldenrod;
@@ -428,4 +429,14 @@ color: goldenrod;
 .fa-instagram {
   background: #125688;
   color: white;
+}
+footer#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.main-content {
+    padding-bottom: 5vw;
 }
