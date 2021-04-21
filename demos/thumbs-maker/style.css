@@ -394,12 +394,10 @@ img, legend, video {
 	vertical-align: middle;
 }
 footer {
-  display: inline-block;
     width: 100%;
     text-align: center;
     width: 100%;
-    background-color: goldenrod;
-    color: #fff;
+    color: #5e5e5e;
     font-size: 15px;
     font-size: .9375rem;
 }
